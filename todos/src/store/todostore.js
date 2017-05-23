@@ -24,6 +24,7 @@ export class Todostore  extends EventEmitter {
 //     this.emit('change');
 // }
 getall() {
+     console.log("saroj");
     console.log(this.todos)
     return this.todos;
 }
